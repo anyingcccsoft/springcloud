@@ -15,10 +15,10 @@ import org.springframework.context.annotation.Bean;
 @EnableFeignClients
 @EnableHystrixDashboard
 @EnableCircuitBreaker
-public class CccsoftApplication {
+public class EurekaHystrixApplication{
 
 	public static void main(String[] args) {
-		SpringApplication.run(CccsoftApplication.class, args);
+		SpringApplication.run(EurekaHystrixApplication.class, args);
 	}
 
 	@Bean

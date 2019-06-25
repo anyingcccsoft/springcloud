@@ -1,0 +1,17 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/anyingcccsoft/springcloud/
+          search-paths: cccsoft-config-repo
+          username:
+          password:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/   ## 注册中心eurka地址

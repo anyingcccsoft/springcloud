@@ -9,9 +9,9 @@ spring:
         git:
           uri: https://github.com/anyingcccsoft/springcloud/
           search-paths: cccsoft-config-repo
-          username:
-          password:
+          username: anyingccc@163.com
+          password: zs8677*.
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8000/eureka/   ## 注册中心eurka地址
+      defaultZone: http://localhost:8000/eureka/

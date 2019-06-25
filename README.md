@@ -3,8 +3,6 @@
 springcloud学习-eureka+hystrix+dashboard+turbine
 
 重复性搭建拆除,命名上有点问题
-特别是启动类命名还有重复的,先鄙视自己一波.
-
 cccsoft-eureka 注册中心
 cccsoft-eureka-server1和cccsoft-eureka-server 是 producer
 cccsoft-eureka-client 和 cccsoft-hystrix-dashboard 是 consumer

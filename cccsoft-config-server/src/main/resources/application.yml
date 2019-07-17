@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/anyingcccsoft/springcloud/
           search-paths: cccsoft-config-repo
-          username: anyingccc@163.com
-          password: zs8677*.
+          username:
+          password:
 eureka:
   client:
     serviceUrl:
